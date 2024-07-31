@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+ body{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgb(230, 228, 228);
+    
+  }
+  /* default style  */
+  body{
+width: 90%;
+margin: 0 auto;
+  }
+  .nav{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+  
+}
+
+  .nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-logo img{
+    width: 48px;
+    height: 56.01px;
+    margin-right: 0.5rem;
+  }
+  .logo-title{
+    font-family: Mulish;
+font-size: 36px;
+font-weight: 800;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: left;
+  }
+  .travel{
+    color: rgb(255, 84, 0);
+  }
+  .home{
+    color: rgb(255, 84, 0);
+  }
+  .nav-list a{
+    text-decoration: none;
+    list-style: none;
+    
+    margin-right: 40px;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .nav-list ul{
+    display: flex;
+    
+  }
+  .nav-list li{
+    cursor: pointer;
+    color: rgb(55, 55, 59);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  
+  .home{
+    color: rebeccapurple;
+  }
+  /* banner  */
+  .banner{
+    border-radius: 16px;
+
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 1170px;
+height: 500px;
+margin: 0 auto;
+    border: 2px solid red;
+  }
+  .travel-input{
+ 
+    text-align: center;
+  }
+  .explore-container{
+    text-align: center;
+   width: 50%;
+   margin: auto
+  }
+  .explore-container>h2{
+    Font: Mulish;
+ font-size: 57px;  color:   rgb(255, 255, 255)
+  }
+  .explore-container>p{
+color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+  }
+.input-travel{
+  justify-content: center;
+  align-items: center;
+}
+input, select, button{
+  padding: 20px;
+  border-radius: 10px;
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.travel-input{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+  border-radius: 10px;
+}
+#button-field{
+  border-radius: 8px;
+color: aliceblue;
+  background: rgb(255, 84, 0);
+  border: none;
+}
+
+/* our popular tours section 
+ */
+ .popular{
+  display: flex;
+ 
+  margin: 100px auto;
+   gap: 30px;
+  width: 1200px;
+ }
+ .popular-container{
+  width: 50%;
+ }
+ .popular-title{
+  color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+ 
+ }
+ .popular-des , .destinations-des{
+  color:rgba(19, 19, 24, 0.7);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+ }
+ .popular-img{
+  width: 50%;
+  justify-content: right;
+  width: 510px;
+height: 510px;
+ }
+ /* destination  */
+.destination-text-container{
+  align-items: center;
+  text-align: center;
+}
+ 
+ .destination-title{
+  color: rgb(19, 19, 24);
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0%;
+}
+ .row-1, .row-2, .row-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem 0;
+  gap: 1rem;
+ }
+ .row-2{
+  grid-template-columns: 0.8fr 1fr 0.7fr;
+ }
+ .row-3{
+  grid-template-columns: 0.8fr 1.2fr;
+ }
+ .country-card{
+  position: relative;
+ }
+ .country{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 28px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  color: white;
+ }
+ .destination img{
+  width: 100%;
+  height: 300px;
+  filter: brightness(70%);
+ }
+ footer{
+  margin: 100px 0px;
+  align-items: center;
+  justify-content: center;
+ }
+ .footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ }
+ 
+ .icons{
+ justify-content: center;
+  display: flex;
+  gap: 30px;
+ }
+ .fa-brands{
+   font-size: 40px;
+   color: rgb(44, 44, 172);
+ }
+ #github{
+  color: black;
+ }
+ #instagram{
+ 
+  color: transparent;
+  background: -webkit-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+ 
+ #twitter{
+  color: #1DA1F2;
+ }
+ hr{
+  margin-top: 30px;
+  width: 70%;
+ }
+  footer > p{
+  text-align: center;
+ }
