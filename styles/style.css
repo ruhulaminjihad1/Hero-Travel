@@ -108,6 +108,7 @@ text-align: center;
   align-items: center;
 }
 input, select, button{
+  width: 250px;
   padding: 20px;
   border-radius: 10px;
   color: rgba(19, 19, 24, 0.5);
@@ -116,12 +117,12 @@ input, select, button{
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0%;
-  text-align: center;
+ 
 }
 .travel-input{
   background: rgba(255, 255, 255, 0.2);
   padding: 15px;
-  width: 60%;
+  
   margin: auto;
   border-radius: 10px;
 }
@@ -255,4 +256,84 @@ letter-spacing: 0%;
  }
   footer > p{
   text-align: center;
+ }
+ /* responsive  */
+ .ham-berger{
+  display: none;
+ }
+ 
+ @media screen and (max-width: 576px) {
+  .nav-list{
+    display: none;
+  }
+  .ham-berger{
+    display: block;
+  }
+  .banner{
+    border-radius: 16px;
+
+    background-color: rgba(0,0,0, 0.5);
+    background-blend-mode: overlay;
+
+    background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: auto;
+height: auto;
+margin: 0 auto;
+    border: 2px solid red;
+  }
+  .explore-container>h2{
+    Font: Mulish;
+ font-size: 22px;  color:   rgb(255, 255, 255);
+ font-weight: bold;
+  }
+  .explore-container>p{
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+   text-align: center;
+   margin: 0 10px;
+ 
+      }
+       .explore-container{
+        width: 100%;
+        
+       }
+       .travel-input{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+ padding: 1px;
+ margin: 20px auto;
+       }
+       .input-field{
+         width: 250px;
+       }
+       input{
+          width: 100px;
+       }
+       .popular-container{
+        width: 100%;
+       }
+       .popular{
+        display: block;
+   width: auto;
+  height: auto;
+       }
+       .popular-image{
+        width: 400px;
+       }
+       #button-field{
+        margin: 50px 0px;
+       }
+      
+      .row-1 , .row-3 ,.row-2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr)
+ 
+       }
+
  }
